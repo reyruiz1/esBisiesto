@@ -17,4 +17,8 @@ describe("Es Bisiesto", () => {
   it("El 1900 no es anio bisiesto es divisible entre 4 pero tambien por 100", () => {
     expect(esBisiesto(1900)).toEqual(false);
   });
+
+  it("El 2100 no es anio bisiesto es divisible entre 100 pero no por 400", () => {
+    expect(esBisiesto(2100)).toEqual(false);
+  });
 });
