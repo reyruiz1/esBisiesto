@@ -26,7 +26,7 @@ describe("Es Bisiesto", () => {
     expect(esBisiesto(2000)).toEqual(true);
   });
 
-  it("El 2024 es anio bisiesto es divisible entre 400", () => {
-    expect(esBisiesto(2000)).toEqual(true);
+  it("El 2024 es anio bisiesto", () => {
+    expect(esBisiesto(2024)).toEqual(true);
   });
 });
